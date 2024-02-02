@@ -11,38 +11,17 @@
 }
 
 .header {
-  width: 90%;
-  max-width: 920px;
-  margin: 0 auto;
   padding: 2em 0;
 
   background-color: #f3f5f8;
 }
 .container {
+  width: 90%;
+  max-width: 920px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-@media screen and (max-width: 823px) {
-  .container {
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-.title h1 {
-  color: var(--dark-blue);
-  font-family: "Lora", serif;
-  font-size: 2rem;
-  font-weight: 400;
-  margin: 0;
-}
-.title p {
-  font-family: "Ubuntu", sans-serif;
-  font-size: 1rem;
-  font-weight: bold;
-  color: var(--sky);
-  margin: 0;
 }
 
 nav ul {
@@ -54,6 +33,20 @@ nav ul {
 
 nav li {
   margin-left: 2em;
+}
+@media screen and (max-width: 675px) {
+  .container,
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    text-align: center;
+  }
+  nav li {
+    margin-bottom: 2em;
+  }
 }
 nav a {
   text-decoration: none;
@@ -71,4 +64,18 @@ nav a:focus {
 }
 .active:hover {
   color: var(--gray);
+}
+.title h1 {
+  color: var(--dark-blue);
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.title p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--sky);
+  margin: 0;
 }
