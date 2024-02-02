@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@300;400&family=Ubuntu:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+:root {
+  --white: #f8f8f8;
+  --gray: #707070;
+  --sky: #1782d2;
+  --dark-blue: #143774;
+}
+
+.header {
+  width: 90%;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 2em 0;
+
+  background-color: #f3f5f8;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media screen and (max-width: 823px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.title h1 {
+  color: var(--dark-blue);
+  font-family: "Lora", serif;
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+}
+.title p {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--sky);
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+}
+
+nav li {
+  margin-left: 2em;
+}
+nav a {
+  text-decoration: none;
+  color: var(--gray);
+  font-weight: 700;
+  padding: 0.25em;
+}
+nav a:hover,
+nav a:focus {
+  color: var(--sky);
+}
+
+.active {
+  border-bottom: 1px solid var(--gray);
+}
+.active:hover {
+  color: var(--gray);
+}
