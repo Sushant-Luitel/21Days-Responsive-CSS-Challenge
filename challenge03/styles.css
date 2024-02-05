@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+.container {
+  width: 80%;
+  margin: 5rem auto;
+  min-height: 80vh;
+  background: linear-gradient(to right, #23424a, #136c72);
+}
+h1 {
+  font-family: "Roboto Black";
+  font-size: 3em;
+}
+p {
+  color: rgb(215, 209, 209);
+}
+.content {
+  padding: 2em 4em;
+  font-family: Roboto;
+  font-size: 1.2em;
+  color: white;
+
+  width: 55%;
+}
+
+button {
+  font-family: Roboto;
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  color: black;
+  background-color: #38cfd9;
+  border-radius: 2em;
+}
