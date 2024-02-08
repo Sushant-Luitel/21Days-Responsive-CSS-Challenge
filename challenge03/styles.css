@@ -13,9 +13,9 @@ p {
 }
 .container {
   width: 100%;
-  overflow: scroll;
+
   padding: 6em 0;
-  background: linear-gradient(to right, #23424a, #136c72);
+  background: linear-gradient(to right, #136c72, #23424a);
 }
 
 .hero {
@@ -34,9 +34,29 @@ p {
 button {
   border: none;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 600;
 
-  background-color: rgb(1, 52, 104);
+  background-color: #38cfd9;
   border-radius: 2em;
   padding: 0.75em 2em;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 3em 1em;
+
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+  gap: 2em;
+}
+.row-white h1 {
+  color: #87629a;
+}
+.row-white p {
+  color: black;
+}
+
+.col {
+  width: 100%;
 }
