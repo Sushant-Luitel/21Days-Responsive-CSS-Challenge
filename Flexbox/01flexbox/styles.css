@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+
+.container {
+  width: 90%;
+  margin: 1em auto;
+  background: linear-gradient(to right, white, rgb(26, 78, 94));
+}
+
+.row {
+  border: 1px solid black;
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  width: 30%;
+}
+
+.col-flex {
+  padding: 1em;
+  margin-inline: 1em;
+  flex: 1;
+}
