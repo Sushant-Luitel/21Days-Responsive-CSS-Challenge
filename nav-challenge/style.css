@@ -55,8 +55,12 @@ h1 {
   margin: 0 auto;
 }
 
+.push-right {
+  margin-left: auto;
+}
 .row {
   display: flex;
+
   justify-content: space-between;
 }
 
@@ -74,6 +78,13 @@ header {
   padding: 0.5em 0;
 }
 
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
 .nav__list {
   font-size: 1.11rem;
   margin: 0;
@@ -81,7 +92,9 @@ header {
   list-style: none;
   display: flex;
   gap: 1em;
-  padding: 0.5em 5em;
+}
+.nav__list__primary {
+  margin: 0 auto;
 }
 
 .nav__link {
