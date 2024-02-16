@@ -13,6 +13,12 @@ body {
   --brown: #824936;
   --black: #222c2a;
 }
+img {
+  max-width: 100%;
+}
+.bg-black {
+  background: var(--black);
+}
 h3 {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -43,7 +49,7 @@ h1 {
 .container {
   padding: 3em 2em;
   width: 80%;
-  margin: 0 auto;
+  margin: 1em auto;
   max-width: 1180px;
 }
 
@@ -53,8 +59,23 @@ h1 {
   width: 70%;
 }
 
-.wrapper {
+.row {
   display: flex;
-
+  justify-content: center;
   gap: 1em;
+}
+
+.hero-text,
+.hero-text-secondary {
+  width: 35%;
+}
+.hero-text-secondary,
+.hero-text-secondary h2 {
+  color: white;
+}
+.flex-image {
+  margin-left: 3em;
+}
+img {
+  width: 70%;
 }
