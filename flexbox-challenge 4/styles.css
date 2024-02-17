@@ -20,37 +20,45 @@ img {
   background: var(--black);
 }
 h3 {
+  letter-spacing: 0.8rem;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-style: normal;
-  margin: 0;
+  margin: 1em;
   font-size: 1.1rem;
   text-align: center;
   text-transform: uppercase;
 }
 h2 {
-  text-align: center;
   color: var(--brown);
 }
 h1 {
   margin: 0;
-  line-height: 3.2rem;
+  line-height: 3.3rem;
   color: var(--brown);
   font-size: 3.8rem;
 }
 
-.header {
-  background-color: var(--cream);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 .container {
-  padding: 3em 2em;
   width: 80%;
   margin: 1em auto;
   max-width: 1180px;
+}
+.row {
+  display: flex;
+
+  gap: 2em;
+}
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  background-color: var(--cream);
+  padding: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-text {
@@ -58,24 +66,27 @@ h1 {
   text-align: center;
   width: 70%;
 }
-
-.row {
-  display: flex;
-  justify-content: center;
-  gap: 1em;
+.secondary-title {
+  font-size: 2.2rem;
+  margin-top: 2em;
+  margin-bottom: 0.1em;
+  text-align: center;
 }
-
-.hero-text,
-.hero-text-secondary {
-  width: 35%;
-}
-.hero-text-secondary,
-.hero-text-secondary h2 {
-  color: white;
-}
-.flex-image {
-  margin-left: 3em;
+.hero-text {
+  width: 30%;
 }
 img {
-  width: 70%;
+  width: 80%;
+}
+.flex-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30%;
+}
+.background-black {
+  padding: 3em 0;
+  background: black;
+  color: white;
 }
