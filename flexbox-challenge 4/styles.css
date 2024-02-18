@@ -76,7 +76,7 @@ h1 {
   width: 30%;
 }
 img {
-  width: 80%;
+  width: 80%a;
 }
 .flex-image {
   display: flex;
@@ -89,4 +89,8 @@ img {
   padding: 3em 0;
   background: black;
   color: white;
+}
+
+.bg-brown {
+  background: var(--brown);
 }
