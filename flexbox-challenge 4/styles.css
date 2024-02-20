@@ -3,8 +3,37 @@
 *::before {
   box-sizing: border-box;
 }
-
+:root {
+  --cream: #f3eed9;
+  --brown: #824936;
+  --black: #222c2a;
+}
 body {
   margin: 0;
   font-family: Roboto, "sans serif";
+}
+.container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.intro-section {
+  background-color: var(--cream);
+  padding: 12rem 0;
+  text-align: center;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  color: var(--black);
+}
+.intro-title {
+  margin-top: 0;
+  font-family: "Playfair Display";
+  font-size: 3.8rem;
+  color: var(--brown);
+  line-height: 0.9;
 }
