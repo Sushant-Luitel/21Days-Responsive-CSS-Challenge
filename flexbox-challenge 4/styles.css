@@ -11,29 +11,50 @@
 body {
   margin: 0;
   font-family: Roboto, "sans serif";
+  color: white;
+}
+img {
+  max-width: 100%;
 }
 .container {
-  width: 50%;
+  width: 85%;
   margin: 0 auto;
+  max-width: 1120px;
 }
-
+section {
+  padding-block: 1em;
+}
 .intro-section {
   background-color: var(--cream);
-  padding: 12rem 0;
+  padding-block: 6rem;
   text-align: center;
 }
 
 .intro-text {
-  font-size: 1.1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.4em;
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 0.7em;
   color: var(--black);
 }
 .intro-title {
   margin-top: 0;
   font-family: "Playfair Display";
-  font-size: 3.8rem;
+  font-size: 2rem;
+  font-weight: 900;
   color: var(--brown);
   line-height: 0.9;
+}
+
+.section-title--dark {
+  color: var(--brown);
+}
+.section-two {
+  color: var(--black);
+}
+.section-three {
+  background-color: var(--black);
+}
+.section-four {
+  background-color: var(--brown);
 }
