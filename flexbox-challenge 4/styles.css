@@ -40,7 +40,7 @@ section {
 .intro-title {
   margin-top: 0;
   font-family: "Playfair Display";
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 900;
   color: var(--brown);
   line-height: 0.9;
@@ -57,4 +57,17 @@ section {
 }
 .section-four {
   background-color: var(--brown);
+}
+
+@media (min-width: 800px) {
+  .row {
+    display: flex;
+    gap: 3em;
+  }
+  .col {
+    width: 100%;
+  }
+  .intro-title {
+    font-size: 3.5rem;
+  }
 }
