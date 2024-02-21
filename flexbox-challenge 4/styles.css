@@ -25,9 +25,12 @@ section {
   padding-block: 1em;
 }
 .intro-section {
-  background-color: var(--cream);
-  padding-block: 6rem;
+  display: flex;
+
+  align-items: center;
   text-align: center;
+  background-color: var(--cream);
+  min-height: 400px;
 }
 
 .intro-text {
